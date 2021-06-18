@@ -82,6 +82,14 @@
     margin: auto;
 }
 
+#search-icon {
+    width: 1.4rem;
+    height: auto;
+    position: absolute;
+    top: 9.5rem;
+    left: 12.6rem;
+}
+
 .search-button {
     width: 8rem;
     height: 2.5rem;
@@ -148,5 +156,5 @@
 
 /*-------------- Query ---------------
 - Why a dash appears when hoving over the menu icon?
-
+- How to offset text input on search bar?
 */
