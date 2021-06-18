@@ -1,4 +1,4 @@
-#google-homepage
+# google-homepage
 
 This is a Google Search Homepage built with HTML and CSS.
 This webpage is one of the projects available on The Odin Project
