@@ -1,0 +1,128 @@
+/*-------------- Navigation bar -----------*/
+#navbar {
+    display: flex;
+}
+
+#left-nav {
+    position: absolute;
+    left: 1.4rem;
+    top: 1.4rem;
+}
+
+#right-nav {
+    position: absolute;
+    right: 1.4rem;
+    top: 1.4rem;
+}
+
+#menu-icon {
+    width: 1.6rem;
+    height: auto;
+    vertical-align: middle;
+    padding-right: 1rem;
+}
+
+#sign-in {
+    background-color: #4285f4;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    font-weight: bold;
+}
+
+.left-nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    padding-right: 1rem;
+}
+
+.right-nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    padding-left: 1.4rem;   
+}
+
+/*-------------- Main section -----------*/
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 25%;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    right: 0;
+}
+
+#google-logo {
+    width: 18rem;
+    height: auto;
+    margin: auto;
+}
+
+#search-bar {
+    width: 60%;
+    height: 2.4rem;
+    border-radius: 2rem;
+    border-width: 0.12rem;
+    border-style:solid;
+    margin: auto;
+}
+
+.search-button {
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #f2f2f2;
+    border-width: 0.1rem;
+    border-radius: 0.2rem;
+    border-style: solid;
+}
+
+.search-button:hover {
+    
+}
+
+
+/*-------------- Footer ---------------*/
+
+#footer {
+    background-color: #eee;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.6rem;
+    
+}
+
+#left-footer {
+    position: absolute;
+    left: 2rem;
+    bottom: 0.7rem;
+    padding-right: 2rem;
+}
+
+#right-footer {
+    position: absolute;
+    right: 2rem;
+    bottom: 0.7rem;
+}
+
+.left-footer-link {
+    padding-right: 1.3rem;
+    text-decoration: none;
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.right-footer-link {
+    padding-left: 1.3rem;
+    text-decoration: none;
+    color: grey;
+    font-size: 0.9rem;
+}
