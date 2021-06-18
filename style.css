@@ -41,7 +41,15 @@
     text-decoration: none;
     color: black;
     font-size: 0.9rem;
-    padding-left: 1.4rem;   
+    padding-left: 1.4rem;
+}
+
+.left-nav-link:hover {
+    text-decoration: underline;
+}
+
+.right-nav-link:hover {
+    text-decoration: underline;
 }
 
 /*-------------- Main section -----------*/
@@ -77,16 +85,19 @@
 .search-button {
     width: 8rem;
     height: 2.5rem;
-    background-color: #f2f2f2;
+    background-color: #ebebeb;
     border-width: 0.1rem;
     border-radius: 0.2rem;
     border-style: solid;
 }
 
 .search-button:hover {
-    
+    cursor: pointer;
+    transition-duration: 0.1s;
+    background-color: #f2f2f2;
+    box-shadow: 0 0.1rem 0.1rem rgba(187,187,187,0.24);
+    border-color: rgb(187, 187, 187);
 }
-
 
 /*-------------- Footer ---------------*/
 
@@ -126,3 +137,16 @@
     color: grey;
     font-size: 0.9rem;
 }
+
+.left-footer-link:hover {
+    text-decoration: underline;
+}
+
+.right-footer-link:hover {
+    text-decoration: underline;
+}
+
+/*-------------- Query ---------------
+- Why a dash appears when hoving over the menu icon?
+
+*/
